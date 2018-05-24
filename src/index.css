@@ -1,0 +1,96 @@
+*{
+    font-family: SansSerif, Arial;
+}
+
+#navWrapper{
+    position: relative;
+}
+
+.navSector {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    background: dodgerblue;
+}
+
+.homeSector{
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    left: 25%;
+}
+
+.imgWrapper img {
+    display:block;
+    margin:10% auto;
+    border-radius: 50%;
+    width: 200px;
+    heigth: 200px;
+}
+
+.infoWrapper p{
+    color: white;
+    margin-top: -5%;
+    line-height: 100%;
+}
+
+.infoWrapper p:first-child {
+    font-size: 35px;
+}
+
+.navLinks a{
+    color:white;
+    font-size: 25px;
+    line-height: 100%;
+}
+
+.navLinks ul li:hover{
+    background: white;
+    color: dodgerblue;
+}
+
+.navLinks ul li{
+    padding: 10px;
+}
+
+.topPanel {
+    background: lightgrey;
+    height: auto;
+    padding: 2px;
+}
+
+.gridContainer{
+    margin-top: 40px;
+}
+
+.socNetworks li{
+    display: inline;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.listImg{
+    heigth:110px;
+    width:110px;
+}
+
+.textContainer{
+    color: #4D4E53;
+    font-size: 17px;
+}
+
+.linkContainer li button{
+    color: #4D4E53;
+    font-size: 15px;
+    margin: 2px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.imgNest{
+    position: absolute;
+}
