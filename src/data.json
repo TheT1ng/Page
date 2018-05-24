@@ -1,23 +1,15 @@
 {
-  "myPage":{"id":1, "name":"Pastor", "surname":"LUL", "city":"Lviv"},
-
   "users":[
-    {"id":2, "name":"Zulu", "surname":"Warriah 1", "city":"Lviv", "isFav":false},
-    {"id":3, "name":"Zulu", "surname":"Warriah 2", "city":"London", "isFav":false},
-    {"id":4, "name":"Zulu", "surname":"Warriah 3", "city":"Paris", "isFav":false},
-    {"id":5, "name":"Zulu", "surname":"Warriah 4", "city":"Berlin", "isFav":false},
-    {"id":6, "name":"Zulu", "surname":"Warriah 5", "city":"Berlin", "isFav":false},
-    {"id":7, "name":"Zulu", "surname":"Warriah 6", "city":"Lviv", "isFav":false},
-    {"id":8, "name":"Zulu", "surname":"Warriah 7", "city":"Lviv", "isFav":false}
-  ]
+    {"id":2, "name":"Zulu", "surname":"First", "city":"Lviv", "isFav":false},
+    {"id":3, "name":"Zulu", "surname":"Second", "city":"London", "isFav":false},
+    {"id":4, "name":"Zulu", "surname":"Third", "city":"Paris", "isFav":false},
+    {"id":5, "name":"Zulu", "surname":"Forth", "city":"Berlin", "isFav":false},
+    {"id":6, "name":"Zulu", "surname":"Fifth", "city":"Berlin", "isFav":false},
+    {"id":7, "name":"Zulu", "surname":"Sixth", "city":"Lviv", "isFav":false},
+    {"id":8, "name":"Zulu", "surname":"Seventh", "city":"Lviv", "isFav":false}
+  ],
+  "myInfo": {"name": "Black",
+    "surname": "Circle",
+    "city": "Lviv"
+  }
 }
-
-users:[
-{id:2, name:"Zulu", surname:"Warriah 1", city:"Lviv", isFav:false},
-{id:3, name:"Zulu", surname:"Warriah 2", city:"London", isFav:false},
-{id:4, name:"Zulu", surname:"Warriah 3", city:"Paris", isFav:false},
-{id:5, name:"Zulu", surname:"Warriah 4", city:"Berlin", isFav:false},
-{id:6, name:"Zulu", surname:"Warriah 5", city:"Berlin", isFav:false},
-{id:7, name:"Zulu", surname:"Warriah 6", city:"Lviv", isFav:false},
-{id:8, name:"Zulu", surname:"Warriah 7", city:"Lviv", isFav:false}
-]

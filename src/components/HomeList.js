@@ -19,8 +19,8 @@ export class HomeList extends React.Component{
             {id:7, name:"Zulu", surname:"Sixth", city:"Lviv", isFav:false},
             {id:8, name:"Zulu", surname:"Seventh", city:"Lviv", isFav:false}
         ],
-            myInfo: {name: "Pastor",
-                surname: "LUL",
+            myInfo: {name: "Black",
+                surname: "Circle",
                 city: "Lviv"
             }};
     }
