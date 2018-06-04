@@ -1,5 +1,5 @@
 {
-  "users":[
+  "users": [
     {"id":2, "name":"Zulu", "surname":"First", "city":"Lviv", "isFav":false},
     {"id":3, "name":"Zulu", "surname":"Second", "city":"London", "isFav":false},
     {"id":4, "name":"Zulu", "surname":"Third", "city":"Paris", "isFav":false},
@@ -8,8 +8,9 @@
     {"id":7, "name":"Zulu", "surname":"Sixth", "city":"Lviv", "isFav":false},
     {"id":8, "name":"Zulu", "surname":"Seventh", "city":"Lviv", "isFav":false}
   ],
-  "myInfo": {"name": "Black",
-    "surname": "Circle",
+  "myInfo": {
+    "name": "Pee",
+    "surname": "Touch",
     "city": "Lviv"
   }
 }

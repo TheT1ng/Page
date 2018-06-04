@@ -1,5 +1,13 @@
 *{
-    font-family: SansSerif, Arial;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input:focus{
+    outline: none;
+}
+
+hr{
+    width: 93.5%;
 }
 
 #navWrapper{
@@ -10,7 +18,35 @@
     position: absolute;
     height: 100%;
     width: 25%;
-    background: dodgerblue;
+    background: linear-gradient(#303030, #434343, #303030);
+}
+
+.navImgs{
+    margin: 0 15px 0 10px;
+    display: inline;
+}
+
+.navTxts{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    margin-top: 7px;
+}
+
+.outImgs{
+    margin: 0 15px 5px 10px;
+    display: inline;
+}
+
+.outTxts{
+    position: absolute;
+    color: white;
+    margin-top:2px;
+    margin-bottom: 0;
+    font-size: 12px;
+    display: inline;
 }
 
 .homeSector{
@@ -20,22 +56,40 @@
     left: 25%;
 }
 
+.userInfo p:first-child{
+    font-size: 25px;
+    font-weight: bold;
+    background: linear-gradient(#046F9B, #34BDF0, #046F9B);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 0;
+}
+
+.userInfo p:last-child{
+    font-size: 14px;
+    color: lightgrey;
+    margin-bottom: 2px;
+}
+
 .imgWrapper img {
     display:block;
     margin:10% auto;
     border-radius: 50%;
-    width: 200px;
-    heigth: 200px;
-}
-
-.infoWrapper p{
-    color: white;
-    margin-top: -5%;
-    line-height: 100%;
+    width: 175px;
+    height: 175px;
 }
 
 .infoWrapper p:first-child {
-    font-size: 35px;
+    font-size: 50px;
+    color: #A4A3A3;
+    font-weight: bolder;
+}
+
+.infoWrapper p{
+    color: #519FC5;
+    margin-top: -5%;
+    line-height: 100%;
+    font-size: 15px;
 }
 
 .navLinks a{
@@ -45,8 +99,21 @@
 }
 
 .navLinks ul li:hover{
-    background: white;
-    color: dodgerblue;
+    position: relative;
+    width: 104%;
+    background: linear-gradient(#046F9B, #34BDF0, #046F9B);
+}
+
+.navLinks ul li:hover:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 0 14px;
+    border-color: transparent transparent transparent #046F9B;
+    top: -10px;
+    left: 96%;
 }
 
 .navLinks ul li{
@@ -54,24 +121,132 @@
 }
 
 .topPanel {
-    background: lightgrey;
-    height: auto;
-    padding: 2px;
+    display: block;
+    height: 150px;
+    width: 100%;
+    position: relative;
 }
 
-.gridContainer{
-    margin-top: 40px;
+.panelLeft{
+    display: inline-block;
+    width: 75%;
+    height: 100%;
+    padding: 12px 0 0 27px;
 }
 
-.socNetworks li{
-    display: inline;
-    border: 1px solid black;
+.leftTop button{
+    border: 0;
+    padding: 0;
+    background: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.inputWrapper{
+    display: inline-block;
+    border: 1px solid #046F9B;
+    border-radius: 15px;
+    padding-left: 3px;
+    width: 255px;
+}
+
+.inputWrapper input{
+    margin-left: 15px;
+    border: none;
+    padding-left: 2px;
+    color: #046F9B;
+}
+
+::-webkit-input-placeholder{
+    color: #046F9B;
+    font-size: 15px;
+}
+
+.leftBottom {
+    position: absolute;
+    bottom: -16px;
+}
+
+.leftBottom div:first-child{
+    display: inline-block;
+    font-size: 56px;
+    background: linear-gradient(#046F9B, #34BDF0, #046F9B);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+}
+
+.leftBottom div:last-child{
+    position: absolute;
+    display: inline-block;
+    margin-left: 50px;
+    bottom: 25%;
+}
+
+.panelRight {
+    position: absolute;
+    display: inline-block;
+    width: 25%;
+}
+
+.rightTop div:first-child{
+    display: inline-block;
+}
+
+.rightTop div:last-child{
+    display: inline-block;
+}
+
+.topTxts p:first-child{
+    color: lightgrey;
+    margin-bottom: 0;
+}
+
+.topTxts{
+    margin-top: 10px;
+}
+
+.rightTop div img{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.rightBottom {
+    position: absolute;
+    bottom: -55px;
+}
+
+.rightBottom div:first-child{
+    display: inline-block;
+}
+
+.rightBottom div:last-child{
+    display: inline-block;
+}
+
+.socNetworks div{
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    border: 1px solid #046F9B;
     border-radius: 50%;
+    padding: 0;
+    margin: 2px;
+}
+
+.socNetworks div:hover{
+    border: 1px solid red;
+    background: red;
+}
+
+.socNetworks div img{
 }
 
 .listImg{
-    heigth:110px;
+    height:110px;
     width:110px;
+    border-radius: 50%;
 }
 
 .textContainer{

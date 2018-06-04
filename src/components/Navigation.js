@@ -5,7 +5,8 @@ export class Navigation extends React.Component{
     constructor(){
         super();
         this.state= {
-            myInfo: {name: "Black",
+            myInfo: {
+                name: "Black",
                 surname: "Circle",
                 city: "Lviv"
             }};
@@ -17,18 +18,59 @@ export class Navigation extends React.Component{
                     <img src="/images/black.png" className="img-fluid"/>
                 </div>
                 <div className="infoWrapper">
-                    <p className="text-center"> {this.state.myInfo.name + ' ' + this.state.myInfo.surname} </p>
-                    <p className="text-center">{this.state.myInfo.city}</p>
+                    <p className="text-center">{ this.state.myInfo.name + ' ' + this.state.myInfo.surname }</p>
+                    <p className="text-center">{ this.state.myInfo.city }</p>
                 </div>
                 <div className="navLinks">
-                    <ul className="list-unstyled text-center">
-                        <Link to="/"><li>HOME</li></Link>
-                        <a href="#"><li>LINK</li></a>
-                        <a href="#"><li>LINK</li></a>
-                        <a href="#"><li>LINK</li></a>
+                    <ul className="list-unstyled">
+                        <li>
+                            <Link to="/">
+                                <img src="../images/home-outline.svg" className="navImgs" />
+                                <p className="navTxts">HOME</p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/">
+                                <img src="../images/notebook.svg" className="navImgs" />
+                                <p className="navTxts">CONTACTS</p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/">
+                                <img src="../images/home-outline.svg" className="navImgs" />
+                                <p className="navTxts">FAVORITES</p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/">
+                                <img src="../images/home-outline.svg" className="navImgs" />
+                                <p className="navTxts">PEOPLE</p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/">
+                                <img src="../images/home-outline.svg" className="navImgs" />
+                                <p className="navTxts">COMPANIES</p>
+                            </Link>
+                        </li>
                     </ul>
                 </div>
-                <userData/>
+                <div className="linksOut">
+                    <ul className="list-unstyled">
+                        <li>
+                            <Link to="/">
+                                <img src="../images/settings-outline.svg" className="outImgs" />
+                                <p className="outTxts">SETTINGS</p>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/">
+                                <img src="../images/logout.svg" className="outImgs" />
+                                <p className="outTxts">SIGN OUT</p>
+                            </Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         );
     }

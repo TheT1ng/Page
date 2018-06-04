@@ -1,7 +1,7 @@
 import React from "react";
 import {render} from "react-dom";
 import {BrowserRouter as Router, Route, Link, Switch} from "react-router-dom";
-//import data from "../data";
+import dataJSON from "../data.json";
 
 import {HomeGrid} from "../components/HomeGrid";
 import {HomeList} from "../components/HomeList";
