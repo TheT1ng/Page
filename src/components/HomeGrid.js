@@ -1,32 +1,26 @@
 import React from 'react'
 import { Route, Link, Switch } from 'react-router-dom';
 import dataJSON from "../data.json";
+import {TopPanel} from "./TopPanel";
+import {UserGrid} from "./UserGrid";
+import {connect} from "react-redux";
+import {bindActionCreators} from "redux";
+import {setImg} from "../actions/isFavActions";
+import {setTxt} from "../actions/isFavActions";
+import {addToFav} from "../actions/addToActions";
+import {addToCon} from "../actions/addToActions";
 
-export class HomeGrid extends React.Component{
-    constructor(){
-        super();
-        this.state= {
-            userInput: '',
-
-            testArray: [1,2,4,5,6,6,43,345,236,2],
-
-            users: dataJSON.users,
-            myInfo: {name: "Black",
-                surname: "Circle",
-                city: "Lviv"
-            }
-        };
-    }
-
-    searchFor() {
-        for (var i = 0; i < this.state.users.length; i++) {
-            var tempObj = this.state.users;
-            if (this.state.users[i].name.toLowerCase().indexOf(this.state.userInput.toLowerCase()) > -1){
-                tempObj[i].name = tempObj[i].name.toUpperCase()
-            }else if (this.state.users[i].surname.toLowerCase().indexOf(this.state.userInput.toLowerCase()) > -1){
-                tempObj[i].surname = tempObj[i].surname.toUpperCase()
-            }else if (this.state.users[i].city.toLowerCase().indexOf(this.state.userInput.toLowerCase()) > -1){
-                tempObj[i].city = tempObj[i].city.toUpperCase()
+class HomeGrid extends React.Component {
+    searchFor(val) {
+        this.onCrossClick();
+        for (var i = 0; i < this.props.userIsFav.users.length; i++) {
+            var tempObj = this.props.userIsFav.users;
+            if (this.props.userIsFav.users[i].name.toLowerCase().indexOf(val.toLowerCase()) > -1) {
+                tempObj[i].name = tempObj[i].name.toUpperCase();
+            } else if (this.props.userIsFav.users[i].surname.toLowerCase().indexOf(val.toLowerCase()) > -1) {
+                tempObj[i].surname = tempObj[i].surname.toUpperCase();
+            } else if (this.props.userIsFav.users[i].city.toLowerCase().indexOf(val.toLowerCase()) > -1) {
+                tempObj[i].city = tempObj[i].city.toUpperCase();
             }
             this.setState({
                 users: tempObj
@@ -34,96 +28,102 @@ export class HomeGrid extends React.Component{
         }
     }
 
-    onUserInput(event){
+    onCrossClick(){
+        var capitalizeFunc = function (string){
+            string = string.toLowerCase();
+            string = string.charAt(0).toUpperCase() + string.slice(1);
+            return(string);
+        };
+        var tempObj = this.props.userIsFav.users;
+        for (var i = 0; i < tempObj.length-1; i++) {
+            tempObj[i].name = capitalizeFunc(tempObj[i].name);
+            tempObj[i].city = capitalizeFunc(tempObj[i].city);
+            tempObj[i].surname = capitalizeFunc(tempObj[i].surname);
+        }
         this.setState({
-            userInput: event.target.value
+            users: tempObj
         })
     }
 
-    addToFav(id){
-        var arr = dataJSON.users;
-        arr[id].isFav = !arr[id].isFav;
-        this.setState({users: arr});
+    onUserInput(event){
+        var val = event.target.value;
+        console.log(val);
+        this.searchFor(val);
     }
 
-    userIsFavTxt(id){
-        return (dataJSON.users[id].isFav == true) ? "Delete from Favs" : "Add to Favs";
+    showOneRow(componentsArray, index){
+        componentsArray = componentsArray.slice(index, index + 4);
+        return(
+            <div className="row">
+                {
+                    componentsArray.map(currentElement => {
+                        return <div className="userCard col-md-3 text-center">{currentElement}</div>
+                    })
+                }
+                <hr/>
+            </div>
+        );
     }
 
-    userIsFavImg(id){
-        if (dataJSON.users[id].isFav == true)
-            return(<img src="../images/account-star.svg"/>)
+    showUsers(users){
+        var compArr = [], indexArr = [];
+        console.log(users);
+        for(let j = 0; j < users.length; j++){
+            compArr.push(<UserGrid
+                key={users[j].id}
+                user={users[j]}
+                addToFav = {this.props.addToFavF.bind(this)}
+                addToCon = {this.props.addToConF.bind(this)}
+                userIsFavImg = {this.props.setImgF.bind(this)}
+            />);
+            if(j % 4 == 0){indexArr.push(j);}
+        }
+        return(
+            <div>
+                {
+                    indexArr.map((currentElement) => {
+                        return (
+                            <div>
+                                {this.showOneRow(compArr, currentElement)}
+                            </div>
+                        );
+                    })
+                }
+            </div>
+        )
     }
+
     render(){
         return(
             <div id="homeWrapper">
-                <div className="topPanel">
-                    <div className="panelLeft">
-                        <div className="leftTop">
-                            <button>
-                                <img src="./images/close.svg"/>
-                            </button>
-                            <div className="inputWrapper">
-                                <img src="./images/magnify.svg"/>
-                                <input type="text" placeholder="Search..." onChange={(event)=>this.onUserInput(event)}></input>
-                            </div>
-                            <button className="btn-primary" onClick={this.searchFor.bind(this)}>Search</button>
-                        </div>
-                        <div className="leftBottom">
-                            <div>People</div>
-                            <div>
-                                <Link to="/home-list">
-                                    <img src="./images/format-list-bulleted.svg"/>
-                                </Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="panelRight">
-                        <div className="rightTop">
-                            <div className="topTxts">
-                                <p className="text-right">Welcome,</p>
-                                <p className="text-right">{dataJSON.myInfo.name + ' ' + dataJSON.myInfo.surname}</p>
-                            </div>
-                            <div>
-                                <img src="./images/biohazard.svg"/>
-                            </div>
-                        </div>
-                        <div className="rightBottom">
-                            <div>
-                                <img src="./images/map-marker.svg"/>
-                            </div>
-                            <div className="dropdown">
-                                asdasdasd
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+                <TopPanel
+                    onUserInput={this.onUserInput.bind(this)}
+                    searchFor={this.searchFor.bind(this)}
+                    onCrossClick={this.onCrossClick.bind(this)}
+                    userInput={this.props.userIsFav.userInput}
+                />
                 <hr/>
 
                 <div className="container-fluid gridContainer">
-                    <div className="row">
-                        <div className="userCard col-md-3 text-center">
-                            <div>
-                                <img className="listImg" src="/images/black.png"/>
-                            </div>
-                            <div className="userInfo">
-                                <p>Name Surname</p>
-                                <p>City</p>
-                            </div>
-                            <div className="socNetworks">
-                                <div><Link to="https://www.facebook.com/profile.php?id=100013864786991"><img src="/images/facebook.svg"/></Link></div>
-                                <div><Link to="#"><img src="/images/twitter.svg"/></Link></div>
-                                <div><Link to="#"><img src="/images/google-plus.svg"/></Link></div>
-                                <div><Link to="#"><img src="/images/skype.svg"/></Link></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
-
-                    </div>
+                    {this.showUsers(this.props.userIsFav.users)}
                 </div>
             </div>
         );
     }
 }
+const mapStateToProps = (state) => {
+    return {
+        userIsFav: state.userIsFavReducer
+    };
+};
+
+const mapDispatchToProps = (dispatch) => {
+    return {
+        setTxtF: bindActionCreators(setTxt, dispatch),
+        setImgF: bindActionCreators(setImg, dispatch),
+        addToFavF: bindActionCreators(addToFav, dispatch),
+        addToConF: bindActionCreators(addToCon, dispatch)
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(HomeGrid);

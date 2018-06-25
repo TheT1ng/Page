@@ -15,7 +15,7 @@ hr{
 }
 
 .navSector {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 25%;
     background: linear-gradient(#303030, #434343, #303030);
@@ -104,7 +104,7 @@ hr{
     background: linear-gradient(#046F9B, #34BDF0, #046F9B);
 }
 
-.navLinks ul li:hover:after{
+.navLinks ul li:hover:before{
     content: '';
     position: absolute;
     width: 0;
@@ -174,13 +174,6 @@ hr{
     -webkit-background-clip: text;
     color: transparent;
     font-weight: bolder;
-}
-
-.leftBottom div:last-child{
-    position: absolute;
-    display: inline-block;
-    margin-left: 50px;
-    bottom: 25%;
 }
 
 .panelRight {
@@ -254,12 +247,20 @@ hr{
     font-size: 17px;
 }
 
+.linkContainer{
+    margin-top: 10px;
+}
+
 .linkContainer li button{
-    color: #4D4E53;
-    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #34BDF0;
+    background: none;
+    border-radius: 15px;
+    font-size: 9px;
     margin: 2px;
-    border: 1px solid lightgrey;
-    border-radius: 10px;
+    border: 1px solid #34BDF0;
+    width: 58%;
 }
 
 button:hover{
@@ -268,4 +269,49 @@ button:hover{
 
 .imgNest{
     position: absolute;
+    top: 0;
+    left: 75%;
 }
+
+.locationSort{
+    background: none;
+    color: #7d7d7d;
+    border: none;
+    box-shadow: none;
+    margin-right: 10px;
+}
+
+.listArrow{
+    display: inline-block;
+    transform: rotate(180deg);
+    margin-left: -4px;
+}
+
+.viewChangersWrapper{
+    margin-left: 35px;
+}
+
+.viewChangers{
+    margin-left: 5px;
+}
+
+.leftBottom div:last-child{
+    display: inline-block;
+    position: relative;
+}
+
+.showUserGrid{
+    display: block;
+}
+
+.userAvatarWrapper{
+    position: relative;
+}
+
+.userInfo{
+    position: relative;
+}
+
+.userCard{
+}
+

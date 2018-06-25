@@ -2,21 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c611e604-f1a4-4d2d-9391-ad30a0912dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/UserGrid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/UserList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__tests__/components/UserGrid.react-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/userAddToReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/userIsFavReducer.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/ComponentShow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/teeeeest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/userInfo.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-server.node.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/package.json" afterPath="$PROJECT_DIR$/node_modules/react-dom/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-server.browser.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-test-utils.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react-dom/umd/react-dom.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/package.json" afterPath="$PROJECT_DIR$/node_modules/react/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.js" afterPath="$PROJECT_DIR$/src/app/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Combination.js" afterPath="$PROJECT_DIR$/src/components/Combination.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HomeGrid.js" afterPath="$PROJECT_DIR$/src/components/HomeGrid.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HomeList.js" afterPath="$PROJECT_DIR$/src/components/HomeList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Navigation.js" afterPath="$PROJECT_DIR$/src/components/Navigation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/UserGrid.js" afterPath="$PROJECT_DIR$/src/components/UserGrid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/UserList.js" afterPath="$PROJECT_DIR$/src/components/UserList.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data.json" afterPath="$PROJECT_DIR$/src/data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/facebook.svg" afterPath="$PROJECT_DIR$/src/images/facebook.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/format-list-bulleted.svg" afterPath="$PROJECT_DIR$/src/images/format-list-bulleted.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/google-plus.svg" afterPath="$PROJECT_DIR$/src/images/google-plus.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/twitter.svg" afterPath="$PROJECT_DIR$/src/images/twitter.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/view-grid.svg" afterPath="$PROJECT_DIR$/src/images/view-grid.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.css" afterPath="$PROJECT_DIR$/src/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <ignored path="page.iws" />
@@ -38,23 +69,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeList.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/HomeList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40449437">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <marker date="1528141413185" expanded="true" signature="4032:5453" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HomeGrid.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/HomeGrid.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
+              <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserGrid.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/UserGrid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.react-test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/__tests__/components/Home.react-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21598272">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -78,42 +127,53 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/tsconfig.json" />
         <option value="$PROJECT_DIR$/src/info.js" />
         <option value="$PROJECT_DIR$/src/userInfo.js" />
-        <option value="$PROJECT_DIR$/src/components/Combination.js" />
         <option value="$PROJECT_DIR$/src/images/account-star.svg" />
         <option value="$PROJECT_DIR$/src/components/users/user1.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/babel-loader/lib/index.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/components/UserGrid.js" />
-        <option value="$PROJECT_DIR$/src/components/UserList.js" />
         <option value="$PROJECT_DIR$/src/components/TopBar.js" />
-        <option value="$PROJECT_DIR$/src/app/index.js" />
         <option value="$PROJECT_DIR$/src/images/home-outline.svg" />
         <option value="$PROJECT_DIR$/src/images/notebook.svg" />
-        <option value="$PROJECT_DIR$/src/data.json" />
-        <option value="$PROJECT_DIR$/src/components/Navigation.js" />
-        <option value="$PROJECT_DIR$/src/components/teeeeest.js" />
         <option value="$PROJECT_DIR$/src/images/close.svg" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/images/magnify.svg" />
         <option value="$PROJECT_DIR$/src/images/logout.svg" />
         <option value="$PROJECT_DIR$/src/images/settings-outline.svg" />
-        <option value="$PROJECT_DIR$/src/images/view-grid.svg" />
         <option value="$PROJECT_DIR$/src/images/map-marker.svg" />
         <option value="$PROJECT_DIR$/src/images/biohazard.svg" />
-        <option value="$PROJECT_DIR$/src/images/format-list-bulleted.svg" />
         <option value="$PROJECT_DIR$/src/components/ComponentShow.js" />
         <option value="$PROJECT_DIR$/src/images/google-plus.svg" />
         <option value="$PROJECT_DIR$/src/images/twitter.svg" />
         <option value="$PROJECT_DIR$/src/images/facebook.svg" />
-        <option value="$PROJECT_DIR$/src/components/HomeGrid.js" />
         <option value="$PROJECT_DIR$/src/images/skype.svg" />
+        <option value="$PROJECT_DIR$/src/components/teeeeest.js" />
+        <option value="$PROJECT_DIR$/src/images/chevron-up.svg" />
+        <option value="$PROJECT_DIR$/src/components/SortedHomeList.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/images/view-grid.svg" />
+        <option value="$PROJECT_DIR$/src/images/format-list-bulleted.svg" />
+        <option value="$PROJECT_DIR$/src/data.json" />
         <option value="$PROJECT_DIR$/src/components/HomeList.js" />
+        <option value="$PROJECT_DIR$/src/components/Combination.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/__tests__/components/UserGrid.react-test.js" />
+        <option value="$PROJECT_DIR$/src/components/Navigation.js" />
+        <option value="$PROJECT_DIR$/src/components/UserList.js" />
+        <option value="$PROJECT_DIR$/src/components/Home.js" />
+        <option value="$PROJECT_DIR$/src/app/store.js" />
+        <option value="$PROJECT_DIR$/src/app/index.js" />
+        <option value="$PROJECT_DIR$/src/actions/isFavActions.js" />
+        <option value="$PROJECT_DIR$/src/components/TopPanel.js" />
+        <option value="$PROJECT_DIR$/src/reducers/userAddToReducer.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/actions/addToActions.js" />
+        <option value="$PROJECT_DIR$/src/reducers/userIsFavReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/HomeGrid.js" />
+        <option value="$PROJECT_DIR$/src/components/UserGrid.js" />
+        <option value="$PROJECT_DIR$/__tests__/components/Home.react-test.js" />
       </list>
     </option>
   </component>
@@ -153,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -200,7 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="reducers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,9 +299,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="__tests__" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,17 +422,27 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16369048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19607843" sideWeight="0.5029762" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22585924" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19639935" sideWeight="0.49702382" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -344,7 +450,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -364,79 +469,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Combination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/format-list-bulleted.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="135" column="1" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HomeList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
           <folding>
-            <marker date="1528141413185" expanded="true" signature="4032:5453" placeholder="..." />
+            <marker date="1528726849176" expanded="true" signature="2903:2924" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -485,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/userInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/account-star.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -527,33 +558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6235012">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/notebook.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="254" selection-start-line="0" selection-start-column="254" selection-end-line="0" selection-end-column="254" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Navigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5246637">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="254" selection-start-line="0" selection-start-column="254" selection-end-line="0" selection-end-column="254" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38369304">
           <caret line="8" column="91" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -577,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="296" selection-start-line="0" selection-start-column="296" selection-end-line="0" selection-end-column="296" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -585,15 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="295" selection-start-line="0" selection-start-column="295" selection-end-line="0" selection-end-column="295" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5755396">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="254" selection-start-line="0" selection-start-column="254" selection-end-line="0" selection-end-column="254" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17937219">
           <caret line="4" column="578" selection-start-line="0" selection-start-column="562" selection-end-line="4" selection-end-column="578" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="254" selection-start-line="0" selection-start-column="254" selection-end-line="0" selection-end-column="254" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,71 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="254" selection-start-line="0" selection-start-column="254" selection-end-line="0" selection-end-column="254" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/teeeeest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/view-grid.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="118" selection-start-line="1" selection-start-column="118" selection-end-line="1" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/format-list-bulleted.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="242" selection-start-line="0" selection-start-column="242" selection-end-line="0" selection-end-column="242" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ComponentShow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40449437">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04494382">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Combination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04494382">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UserGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31460676">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,15 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="282" selection-start-line="0" selection-start-column="282" selection-end-line="0" selection-end-column="296" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/facebook.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="266" selection-start-line="0" selection-start-column="266" selection-end-line="0" selection-end-column="266" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,6 +640,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="296" selection-start-line="0" selection-start-column="296" selection-end-line="0" selection-end-column="296" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/chevron-up.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="295" selection-start-line="0" selection-start-column="295" selection-end-line="0" selection-end-column="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51235956">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="25" selection-end-line="91" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/facebook.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="295" selection-start-line="0" selection-start-column="288" selection-end-line="0" selection-end-column="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/view-grid.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="118" selection-start-line="1" selection-start-column="118" selection-end-line="1" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/format-list-bulleted.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13483146">
+          <caret line="3" column="262" selection-start-line="3" selection-start-column="262" selection-end-line="3" selection-end-column="262" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-200.0">
+          <caret line="290" column="19" selection-start-line="290" selection-start-column="19" selection-end-line="290" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -729,14 +691,150 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="254" selection-start-line="0" selection-start-column="254" selection-end-line="0" selection-end-column="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SortedHomeList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6876404">
+          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.css">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8076923">
-          <caret line="239" column="19" selection-start-line="239" selection-start-column="19" selection-end-line="239" selection-end-column="19" />
+        <state vertical-scroll-proportion="-8.034483">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UserList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1843318">
+          <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Combination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5183585">
+          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TopPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5680345">
+          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HomeList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <marker date="1528726849176" expanded="true" signature="2903:2924" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/addToActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/isFavActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/userAddToReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/userIsFavReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UserGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="52" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__tests__/components/UserGrid.react-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -744,18 +842,16 @@
     <entry file="file://$PROJECT_DIR$/src/components/HomeGrid.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="55" selection-start-line="117" selection-start-column="55" selection-end-line="117" selection-end-column="55" />
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeList.js">
+    <entry file="file://$PROJECT_DIR$/__tests__/components/Home.react-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40449437">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <marker date="1528141413185" expanded="true" signature="4032:5453" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.21598272">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -4,7 +4,7 @@ import dataJSON from "../data.json";
 import {UserList} from "./UserList";
 import {TopPanel} from "./TopPanel";
 
-export class HomeList extends React.Component{
+export class SortedHomeList extends React.Component{
     constructor(){
         super();
         this.state= {
@@ -57,10 +57,17 @@ export class HomeList extends React.Component{
         })
     }
 
-    showUsers(state){
+    showUsers(){
         var tempArr = [];
-        for(let j = 0; j < state.users.length; j++){
-            tempArr.push(<UserList key={state.users[j].id} user={state.users[j]} toShow={true}/>);
+        for(let j = 0; j < this.state.users.length; j++){
+            (this.state.users[j].city == "Lviv")
+                ? tempArr.push(<UserList key={this.state.users[j].id} user={this.state.users[j]} toShow={true}/>)
+                : tempArr.push(<UserList key={this.state.users[j].id} user={this.state.users[j]} toShow={false}/>)
+        }
+        for(let j = 0; j < this.state.users.length; j++){
+            (this.state.users[j].city == "Lviv")
+                ? tempArr.push(<UserList key={this.state.users[j].id} user={this.state.users[j]} toShow={false}/>)
+                : tempArr.push(<UserList key={this.state.users[j].id} user={this.state.users[j]} toShow={true}/>)
         }
         return(
             <ul className="list-unstyled">
@@ -73,16 +80,17 @@ export class HomeList extends React.Component{
 
     render(){
         return(
-            <div id="homeWrapper">
-                <TopPanel
-                    onUserInput = {this.onUserInput.bind(this)}
-                    searchFor = {this.searchFor.bind(this)}
-                    userInput={this.state.userInput}
-                    onCrossClick = {this.onCrossClick.bind(this)}
-                />
-                <hr/>
-                <div className="container-fluid gridContainer">
-                    {this.showUsers(this.state)}
+            <div>
+                <div id="homeWrapper">
+                    <TopPanel
+                        onUserInput = {this.onUserInput.bind(this)}
+                        searchFor = {this.searchFor.bind(this)}
+                        onCrossClick = {this.onCrossClick.bind(this)}
+                    />
+                    <hr/>
+                    <div className="container-fluid gridContainer">
+                        {this.showUsers()}
+                    </div>
                 </div>
             </div>
         );
