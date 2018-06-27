@@ -13,24 +13,20 @@ export class UserGrid extends React.Component{
         if(user.isFriend){
             if(user.isFav){
                 return <ul className="linkContainer list-unstyled text-center">
-                    <li><button onclick={() => this.props.addToCon(user.id)} style={deleteStyle}>{this.addToContactsTxt(user)}</button></li>
-                    <li><button style={deleteStyle} onClick={() => this.props.addToFav(user.id)}>Delete from Favorites</button></li>
+                    <li><button onclick={() => store.dispatch(this.props.addToCon(user))} style={deleteStyle}>Delete from Contacts</button></li>
+                    <li><button style={deleteStyle} onClick={() => store.dispatch(this.props.addToFav(user))}>Delete from Favorites</button></li>
                 </ul>
             }else {
                 return <ul className="linkContainer list-unstyled text-center">
-                    <li><button style={deleteStyle}>{this.addToContactsTxt(user)}</button></li>
-                    <li><button onClick={() => this.props.addToFav(user.id)}>Add to Favorites</button></li>
+                    <li><button style={deleteStyle}>Delete from Contacts</button></li>
+                    <li><button onClick={() => store.dispatch(this.props.addToFav(user))}>Add to Favorites</button></li>
                 </ul>
             }
         }else {
             return <ul className="linkContainer list-unstyled text-center">
-                <li><button onClick={() => this.props.addToCon(user.id)}>{this.addToContactsTxt(user)}</button></li>
+                <li><button onclick={() => store.dispatch(this.props.addToCon(user))}>Add to Contacts</button></li>
             </ul>
         }
-    }
-
-    addToContactsTxt(user){
-        return (user.isFriend == true) ? "Delete from Contacts" : "Add to Contacts";
     }
 
     userIsFavImg(isFav){

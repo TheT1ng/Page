@@ -1,8 +1,17 @@
-import {createStore, combineReducers} from "redux";
+import {createStore, combineReducers, applyMiddleware} from "redux";
 import userAddToReducer from "../reducers/userAddToReducer";
-import userIsFavReducer from "../reducers/userIsFavReducer"
+import GridReducer from "../reducers/GridReducer";
+import thunk from "redux-thunk";
+import dataJSON from "../data.json";
 
 export default createStore(combineReducers({
-    userIsFavReducer,
+    GridReducer,
     userAddToReducer
-}));
+    }),
+    {
+        users: dataJSON.users,
+        myInfo: dataJSON.myInfo,
+        userInput: ''
+    },
+    applyMiddleware(thunk)
+);

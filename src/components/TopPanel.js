@@ -1,6 +1,7 @@
 import React from 'react'
 import { Route, Link, Switch } from 'react-router-dom';
 import dataJSON from "../data.json";
+import store from "../app/store";
 import {UserList} from "./UserList";
 import {HomeList} from "./HomeList";
 import {SortedHomeList} from "./SortedHomeList"
@@ -63,7 +64,7 @@ export class TopPanel extends React.Component{
             <div className="topPanel">
                 <div className="panelLeft">
                     <div className="leftTop">
-                        <button onClick={this.props.onCrossClick}>
+                        <button onClick={() => store.dispatch(this.props.onCrossClick())}>
                             <img src="./images/close.svg"/>
                         </button>
                         <div className="inputWrapper">

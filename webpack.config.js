@@ -13,7 +13,6 @@ module.exports={
             {
                 loaders: "babel-loader",
                 test: /\.js?$/
-
             }
         ]
     },
